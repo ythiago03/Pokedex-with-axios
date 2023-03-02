@@ -1,9 +1,41 @@
+/*geral */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;400;700&display=swap');
 
+*{
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+body{   
+    background-color: #313131;
+}
+
+/* header*/
+
+header{
+    width: 100%;
+    height: 3rem;
+    background-color: rgb(225, 74, 74);
+    display: flex;
+    align-items: center;
+    padding: .5rem;
+}
+
+header h1{
+    color: white;
+}
+
+/*main*/
 
 .container{
+    width: 100%;
+    padding: 2rem;
     display: flex;
     flex-wrap: wrap;
     gap: 1rem;
+    justify-content: center;
 }
 
 .card{
@@ -11,9 +43,16 @@
     flex-direction: column;
     align-items: center;
     padding: .5rem;
-    width: 200px;
-    height: 300px;
-    background-color: blue;
+    width: 220px;
+    height: 250px;
+    background-color: rgb(250, 254, 249);
+    border-radius: 3px;
+    transition: 300ms ease;
+}
+
+.card:hover{
+    transform: translateY(-7px);
+    box-shadow: 7px 7px 10px rgba(121, 121, 121, 0.729);
 }
 
 .card-img{
@@ -35,8 +74,68 @@
 
 .card-id{
     width: 100%;
+    padding-top: .5rem;
+    font-weight: 200;
+    color: #313131;
 }
 
 .card-name{
     width: 100%;
+    padding-top: .5rem;
+    font-weight: 700;
+    color: #313131;
+    text-transform: capitalize;
+}
+
+.attributes{
+    display: flex;
+    width: 100%;
+    gap: 1rem;
+}
+
+.attribute{
+    background-color: rgb(200, 200, 200);
+    color: #313131;
+    padding: 2px 4px;
+    border-radius: 3px;
+}
+
+.att-grass, .att-bug{
+    background-color: greenyellow;
+}
+
+.att-electric{
+    background-color: yellow;
+}
+
+.att-fire{
+    background-color: orangered;
+}
+
+.att-flying{
+    background-color: lightblue;
+}
+
+.att-poison{
+    background-color: violet;
+}
+
+.att-water{
+    background-color: aqua;
+}
+
+.att-fairy{
+    background-color: pink;
+}
+
+.att-ground{
+    background-color: brown;
+}
+
+.att-fighting{
+    background-color: burlywood;
+}
+
+.att-psychic{
+    background-color: rgb(229, 166, 177);
 }
