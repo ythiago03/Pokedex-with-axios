@@ -12,7 +12,7 @@
 # Sobre
 
 - A ideia do projeto é criar uma pokedex que mostra os primeiros 50 pokemons.
-- Esso foi um projeto de estudos para melhorar meus conhecimentos em Javascript assíncrono.
+- Esse foi um projeto de estudos para melhorar meus conhecimentos em Javascript assíncrono.
 - Utilizei o Axios para consumir a API.
 - A API usada no projeto é a famosa API da pokedex <a href="https://pokeapi.co/" target="_blank">PokeApi</a> 
 - Se você encontrar algum bug ou quiser me dar alguma dica fique a vontade para me chamar no email: ythiagohcfidencio@gmail.com
