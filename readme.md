@@ -8,3 +8,25 @@
     <a href="#tecnologias">tecnologias</a> •
     <a href="#autor">autor</a> 
 </div>
+
+# Sobre
+
+- A ideia do projeto é criar uma pokedex que mostra os primeiros 50 pokemons.
+- Esso foi um projeto de estudos para melhorar meus conhecimentos em Javascript assíncrono.
+- Utilizei o Axios para consumir a API.
+- A API usada no projeto é a famosa API da pokedex <a href="https://pokeapi.co/" target="_blank">PokeApi</a> 
+- Se você encontrar algum bug ou quiser me dar alguma dica fique a vontade para me chamar no email: ythiagohcfidencio@gmail.com
+
+# Tecnologias
+
+As seguintes ferramentas foram usadas no projeto:
+
+- <a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML" target="_blank">HTML5</a>
+- <a href="https://developer.mozilla.org/pt-BR/docs/Web/CSS" target="_blank">CSS3</a>
+- <a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript" target="_blank">JavaScript</a>
+- <a href="https://axios-http.com/" target="_blank">Axios</a>
+- <a href="https://pokeapi.co/" target="_blank">Poke API</a>
+
+# Autor
+
+Feito com 💜 por Thiago Henrique ✨<a href="https://www.linkedin.com/in/thiago-fid%C3%AAncio-a24578224/">Veja meu linkedin</a>
