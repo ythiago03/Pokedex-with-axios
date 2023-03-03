@@ -9,6 +9,8 @@
     <a href="#autor">autor</a> 
 </div>
 
+<p align="center">Você pode ver o projeto<a href="https://ythiago03-pokedex.netlify.app/"> clicando aqui.</a></p>
+
 # Sobre
 
 - A ideia do projeto é criar uma pokedex que mostra os primeiros 50 pokemons.
